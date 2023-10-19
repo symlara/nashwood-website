@@ -21,6 +21,9 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import gericht from "../assets/gericht.png";
 import nashwoodwatermark from "../assets/nashwood-nw-wordmark-logo-white-rgb-640px-w-72ppi.png";
+import entertainment from "../assets/nashwood-nw-entertainment-logo-white-rgb-1280px-w-72ppi.png";
+import hospitality from "../assets/nashwood-nw-hospitality-logo-wise-gray-rgb-1280px-w-72ppi.png";
+import production from "../assets/nashwood-nw-production-logo-wise-gray-rgb-640px-w-72ppi.png";
 
 export default {
   bg,
@@ -46,4 +49,7 @@ export default {
   quote,
   gericht,
   nashwoodwatermark,
+  entertainment,
+  hospitality,
+  production,
 };

@@ -23,8 +23,13 @@ const Header = () => (
       </button>
     </div>
 
-    <div className="app__wrapper_img">
-      <img src={images.welcome} alt="header img" />
+    <div className="app__wrapper_img gap-2">
+      {/* <img src={images.welcome} alt="header img" /> */}
+      <img src={images.entertainment} alt="header img" />
+      <img src={images.hospitality} alt="header img" />
+    </div>
+    <div className="app__wrapper_img mt-[296px]">
+      <img src={images.production} alt="header img" className="mr-[700px]" />
     </div>
   </div>
 );
