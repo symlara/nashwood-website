@@ -129,4 +129,8 @@
   .app__navbar-logo img {
     width: 110px;
   }
+  .app__navbar-smallscreen {
+    display: flex;
+    margin-left: 100px !important;
+  }
 }

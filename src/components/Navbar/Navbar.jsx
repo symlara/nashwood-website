@@ -11,33 +11,38 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={images.gericht} alt="app logo" />
+        <a href="/">
+          <img src={images.nashwoodwatermark} alt="app logo" />
+        </a>
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans">
+        {/* <li className="p__opensans">
           <a href="#home">Home</a>
+        </li> */}
+        <li className="p__raleway">
+          <a href="#entertainment">Entertainment</a>
         </li>
-        <li className="p__opensans">
-          <a href="#about">About</a>
+        <li className="p__raleway">
+          <a href="#hospitality">Hospitality </a>
         </li>
-        <li className="p__opensans">
-          <a href="#menu">Menu</a>
+        <li className="p__raleway">
+          <a href="#humble-baron">Humble Baron</a>
         </li>
-        <li className="p__opensans">
-          <a href="#awards">Awards</a>
+        <li className="p__raleway">
+          <a href="#tolley-house">The Tolley House</a>
         </li>
-        <li className="p__opensans">
-          <a href="#contact">Contact</a>
+        <li className="p__raleway">
+          <a id="real-estate">Real Estate</a>
         </li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">
+        {/* <a href="#login" className="p__raleway">
           Log In / Register
         </a>
         <div />
-        <a href="/" className="p__opensans">
+        <a href="/" className="p__raleway">
           Book Table
-        </a>
+        </a> */}
       </div>
 
       {/* smallscreen */}
@@ -57,19 +62,19 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home">Home</a>
+                <a href="#home">Entertainment</a>
               </li>
               <li className="p__opensans">
-                <a href="#about">About</a>
+                <a href="#hospitality">Hospitality </a>
               </li>
               <li className="p__opensans">
-                <a href="#menu">Menu</a>
+                <a href="#humble-baron">Humble Baron</a>
               </li>
               <li className="p__opensans">
-                <a href="#awards">Awards</a>
+                <a href="#tolley-house">The Tolley House</a>
               </li>
               <li className="p__opensans">
-                <a href="#contact">Contact</a>
+                <a id="real-estate">Real Estate</a>{" "}
               </li>
             </ul>
           </div>
