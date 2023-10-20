@@ -24,6 +24,9 @@ import nashwoodwatermark from "../assets/nashwood-nw-wordmark-logo-white-rgb-640
 import entertainment from "../assets/nashwood-nw-entertainment-logo-white-rgb-1280px-w-72ppi.png";
 import hospitality from "../assets/nashwood-nw-hospitality-logo-wise-gray-rgb-1280px-w-72ppi.png";
 import production from "../assets/nashwood-nw-production-logo-wise-gray-rgb-640px-w-72ppi.png";
+import realestate from "../assets/nashwood-nw-real-estate-logo-wise-gray-rgb-1280px-w-72ppi.png";
+import keithweaver from "../assets/KeithWeaver.jpg";
+import nashwoodlogo from "../assets/nashwood-nw-icon-logo-black-rgb-640px-w-72ppi.png";
 
 export default {
   bg,
@@ -52,4 +55,7 @@ export default {
   entertainment,
   hospitality,
   production,
+  realestate,
+  keithweaver,
+  nashwoodlogo,
 };

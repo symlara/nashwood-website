@@ -9,7 +9,7 @@ import {
   Header,
   Intro,
   Laurels,
-  SpecialMenu,
+  Entertainment,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -19,7 +19,7 @@ const App = () => (
     <Navbar />
     <Header />
     <AboutUs />
-    <SpecialMenu />
+    <Entertainment />
     <Chef />
     <Intro />
     <Laurels />

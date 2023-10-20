@@ -18,18 +18,21 @@ const Header = () => (
         range of entertainment interests – ranging from content production,
         artist development, and physical production services.
       </p>
-      <button type="button" className="custom__button">
+      {/* <button type="button" className="custom__button">
         Explore Menu
-      </button>
+      </button> */}
     </div>
 
-    <div className="app__wrapper_img gap-2">
+    <div className="app__wrapper_img gap-2 xl:ml-[400px]">
       {/* <img src={images.welcome} alt="header img" /> */}
-      <img src={images.entertainment} alt="header img" />
+      <img
+        src={images.entertainment}
+        alt="header img"
+        className="xl:ml-[-270px]"
+      />
       <img src={images.hospitality} alt="header img" />
-    </div>
-    <div className="app__wrapper_img mt-[296px]">
-      <img src={images.production} alt="header img" className="mr-[700px]" />
+      <img src={images.production} alt="header img" />
+      <img src={images.realestate} alt="header img" />
     </div>
   </div>
 );

@@ -1,19 +1,19 @@
 import React from "react";
 import { images } from "../../constants";
 
-import "./AboutUs.css";
+import "../AboutUs/AboutUs.css";
 
-const AboutUs = () => (
+const Entertainment = () => (
   <div
     className="app__aboutus app__bg flex__center section__padding"
-    id="about"
+    id="entertainment"
   >
-    <div className="app__aboutus-overlay flex__center">
-      <img src={images.nashwoodlogo} alt="nashwood logo" />
-    </div>
+    {/* <div className="app__aboutus-overlay flex__center">
+      <img src={images.entertainment} alt="entertainment logo" />
+    </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Entertainment</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <p className="p__raleway flex-wrap" style={{ margin: "2rem 0" }}>
           Keith Weaver is the founder and CEO of Nashwood, Inc., which is a
@@ -36,10 +36,16 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        <img
-          src={images.keithweaver}
+        {/* <img
+          src={images.entertainment}
           className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
+        /> */}
+        <img
+          src={images.entertainment}
+          alt="entertainment logo"
+          className="w-[70%] h-[70%]"
         />
+
         {/* <p className="p__raleway">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
@@ -53,4 +59,4 @@ const AboutUs = () => (
   </div>
 );
 
-export default AboutUs;
+export default Entertainment;
