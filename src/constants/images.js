@@ -27,6 +27,8 @@ import production from "../assets/nashwood-nw-production-logo-wise-gray-rgb-640p
 import realestate from "../assets/nashwood-nw-real-estate-logo-wise-gray-rgb-1280px-w-72ppi.png";
 import keithweaver from "../assets/KeithWeaver.jpg";
 import nashwoodlogo from "../assets/nashwood-nw-icon-logo-black-rgb-640px-w-72ppi.png";
+import chefggarvin from "../assets/ChefGGarvin.jpg";
+import oldfashioned from "../assets/Humble Baron Old Fashioned.jpeg";
 
 export default {
   bg,
@@ -58,4 +60,6 @@ export default {
   realestate,
   keithweaver,
   nashwoodlogo,
+  chefggarvin,
+  oldfashioned,
 };

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
+import { AiOutlineClose } from "react-icons/ai";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -55,14 +56,14 @@ const Navbar = () => {
 
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
+            <AiOutlineClose
               fontSize={27}
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-smallscreen_links">
               <li className="p__opensans">
-                <a href="#home">Entertainment</a>
+                <a href="#entertainment">Entertainment</a>
               </li>
               <li className="p__opensans">
                 <a href="#hospitality">Hospitality </a>

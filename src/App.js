@@ -2,12 +2,12 @@ import React from "react";
 
 import {
   AboutUs,
-  Chef,
+  Hospitality,
   FindUs,
   Footer,
   Gallery,
   Header,
-  Intro,
+  HumbleBaron,
   Laurels,
   Entertainment,
 } from "./container";
@@ -20,8 +20,8 @@ const App = () => (
     <Header />
     <AboutUs />
     <Entertainment />
-    <Chef />
-    <Intro />
+    <Hospitality />
+    <HumbleBaron />
     <Laurels />
     <Gallery />
     <FindUs />

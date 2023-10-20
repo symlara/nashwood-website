@@ -1,21 +1,21 @@
 import AboutUs from "./AboutUs/AboutUs";
-import Chef from "./Chef/Chef";
+import Hospitality from "./Hospitality/Hospitality";
 import FindUs from "./Findus/FindUs";
 import Footer from "./Footer/Footer";
 import Gallery from "./Gallery/Gallery";
 import Header from "./Header/Header";
-import Intro from "./Intro/Intro";
+import HumbleBaron from "./HumbleBaron/HumbleBaron";
 import Laurels from "./Laurels/Laurels";
 import Entertainment from "./Entertainment/Entertainment";
 
 export {
   AboutUs,
-  Chef,
+  Hospitality,
   FindUs,
   Footer,
   Gallery,
   Header,
-  Intro,
+  HumbleBaron,
   Laurels,
   Entertainment,
 };
