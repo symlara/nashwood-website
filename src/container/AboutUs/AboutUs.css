@@ -10,11 +10,12 @@
 }
 
 .app__aboutus-overlay img {
-  width: 391px;
-  height: 415px;
+  width: 300px;
+  height: 300px;
   z-index: 0;
   margin-bottom: 500px;
-  margin-left: 150px;
+  margin-top: 50px;
+  margin-left: 110px;
 }
 
 .app__aboutus-content {
@@ -81,6 +82,9 @@
 }
 
 @media screen and (max-width: 650px) {
+  .app__aboutus-content_history img {
+    width: 80%;
+  }
   .app__aboutus-overlay img {
     width: 80%;
     height: 320px;
@@ -89,10 +93,17 @@
     display: none;
   }
   .app__aboutus-content_about p {
-    align-items: center;
+    /* align-items: center !important;
     flex-direction: column;
-    justify-content: center;
-    display: flex;
-    color: var(--color-white);
+    justify-content: center !important;
+    margin-right: 15px !important; */
+    /* display: flex; */
+    /* color: var(--color-white); */
+    flex: 1;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
   }
 }

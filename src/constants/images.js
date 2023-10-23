@@ -29,6 +29,7 @@ import keithweaver from "../assets/KeithWeaver.jpg";
 import nashwoodlogo from "../assets/nashwood-nw-icon-logo-black-rgb-640px-w-72ppi.png";
 import chefggarvin from "../assets/ChefGGarvin.jpg";
 import oldfashioned from "../assets/Humble Baron Old Fashioned.jpeg";
+import humblebaronlogo from "../assets/HB Logo.jpg";
 
 export default {
   bg,
@@ -62,4 +63,5 @@ export default {
   nashwoodlogo,
   chefggarvin,
   oldfashioned,
+  humblebaronlogo,
 };

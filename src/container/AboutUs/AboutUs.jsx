@@ -34,20 +34,10 @@ const AboutUs = () => (
         {/* <img src={images.knife} alt="about_knife" /> */}
       </div>
       <div className="app__aboutus-content_history">
-        {/* <h1 className="headtext__cormorant">Our History</h1> */}
-        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
         <img
           src={images.keithweaver}
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
+          className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
         />
-        {/* <p className="p__raleway">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
-          adipiscing ultrices vulputate posuere tristique. In sed odio nec
-          aliquet eu proin mauris et.
-        </p> */}
-        {/* <button type="button" className="custom__button">
-          Know More
-        </button> */}
       </div>
     </div>
   </div>
