@@ -22,7 +22,7 @@ const Entertainment = () => (
           With leadership representing more than 60 years combined in key roles
           in the entertainment industry, Nashwood, Inc. is uniquely positioned
           to develop recording artists, audiovisual content, as well as serve as
-          a production partner for entertainment and corporate events .
+          a production partner for entertainment and corporate events.
         </p>
         {/* <button type="button" className="custom__button">
           Know More

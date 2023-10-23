@@ -8,8 +8,9 @@ import {
   Gallery,
   Header,
   HumbleBaron,
-  Laurels,
+  TolleyHouse,
   Entertainment,
+  RealEstate,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
@@ -22,7 +23,8 @@ const App = () => (
     <Entertainment />
     <Hospitality />
     <HumbleBaron />
-    <Laurels />
+    <TolleyHouse />
+    <RealEstate />
     <Gallery />
     <FindUs />
     <Footer />

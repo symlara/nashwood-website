@@ -3,26 +3,26 @@ import { images } from "../../constants";
 
 import "../AboutUs/AboutUs.css";
 
-const HumbleBaron = () => (
+const TolleyHouse = () => (
   <div
     className="app__aboutus app__bg flex__center section__padding"
-    id="humble-baron"
+    id="tolley-house"
   >
+    {/* <div className="app__aboutus-overlay flex__center">
+      <img src={images.entertainment} alt="entertainment logo" />
+    </div> */}
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">Humble Baron</h1>
-        {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
+        <h1 className=" text-white flex__center headtext__cormorant tolley-house">
+          <span className="">Tolley House</span>
+        </h1>
         <p className="p__raleway flex-wrap" style={{ margin: "2rem 0" }}>
-          Humble Baron is Middle Tennessee’s newest restaurant, bar and
-          entertainment venue, located on the property of the iconic Nearest
-          Green Distillery in Shelbyville, Tennessee. Home to the World’s
-          Longest Bar at 518-feet-long, Humble Baron is brought to life by
-          co-founder of Uncle Nearest Premium Whiskey, Keith Weaver. A
-          destination for locals and visitors alike, the venue offers elevated
-          Southern fare alongside craft whiskey cocktails and will showcase live
-          music several nights a week. Humble Baron is a gathering place where
-          everyone has a seat at the table, bringing people together over
-          premium spirits, exceptional food and lively music.
+          The Tolley House is the most storied Bed & Breakfast in Lynchburg,
+          Tennessee. One of historic Lynchburg’s oldest antebellum homes, Tolley
+          House, a boutique inn, was once owned by Lem Motlow and Lem Tolley,
+          the former master distiller for Jack Daniel’s Distillery. The Tolley
+          House is just a mile from Lynchburg’s town square, where you can visit
+          shops and take in the beauty of the historic town.
         </p>
         {/* <button type="button" className="custom__button">
           Know More
@@ -34,10 +34,16 @@ const HumbleBaron = () => (
       <div className="app__aboutus-content_history">
         {/* <h1 className="headtext__cormorant">Our History</h1> */}
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
+        {/* <img
+          src={images.entertainment}
+          className="w-[50%] h-[50%] rounded-xl xl:ml-[150px]"
+        /> */}
         <img
-          src={images.humblebaronlogo}
-          className="w-[50%] h-[50%] rounded-xl xl:ml-[70px]"
+          src={images.hospitality}
+          alt="tolley-house-logo"
+          className="w-[70%] h-[70%]"
         />
+
         {/* <p className="p__raleway">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
           adipiscing ultrices vulputate posuere tristique. In sed odio nec
@@ -51,4 +57,4 @@ const HumbleBaron = () => (
   </div>
 );
 
-export default HumbleBaron;
+export default TolleyHouse;

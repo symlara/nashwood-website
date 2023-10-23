@@ -15,15 +15,18 @@ const Hospitality = () => (
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">Hospitality</h1>
         {/* <img src={images.spoon} alt="about_spoon" className="spoon__img" /> */}
-        {/* <p
+        <p
           className="p__raleway flex-wrap"
           style={{ margin: "2rem 0", marginLeft: "-30px" }}
         >
-          With leadership representing more than 60 years combined in key roles
-          in the entertainment industry, Nashwood, Inc. is uniquely positioned
-          to develop recording artists, audiovisual content, as well as serve as
-          a production partner for entertainment and corporate events .
-        </p> */}
+          Esse incididunt exercitation fugiat ullamco sunt aute ut tempor enim
+          aliquip enim id. Reprehenderit voluptate cillum consequat ex ut ex
+          quis consectetur excepteur tempor deserunt labore. Ut quis dolor
+          occaecat deserunt pariatur cupidatat sunt exercitation pariatur
+          commodo. Ut excepteur excepteur Lorem enim anim aliqua ex nostrud et
+          ipsum consequat minim adipisicing. Esse ullamco aute velit aliquip in
+          in voluptate minim in mollit.
+        </p>
         {/* <button type="button" className="custom__button">
           Know More
         </button> */}

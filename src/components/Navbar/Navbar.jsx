@@ -33,7 +33,7 @@ const Navbar = () => {
           <a href="#tolley-house">The Tolley House</a>
         </li>
         <li className="p__raleway">
-          <a id="real-estate">Real Estate</a>
+          <a id="#real-estate">Real Estate</a>
         </li>
       </ul>
       <div className="app__navbar-login">
@@ -75,7 +75,7 @@ const Navbar = () => {
                 <a href="#tolley-house">The Tolley House</a>
               </li>
               <li className="p__opensans">
-                <a id="real-estate">Real Estate</a>{" "}
+                <a id="#real-estate">Real Estate</a>{" "}
               </li>
             </ul>
           </div>

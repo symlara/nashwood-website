@@ -5,8 +5,9 @@ import Footer from "./Footer/Footer";
 import Gallery from "./Gallery/Gallery";
 import Header from "./Header/Header";
 import HumbleBaron from "./HumbleBaron/HumbleBaron";
-import Laurels from "./Laurels/Laurels";
+import TolleyHouse from "./TolleyHouse/TolleyHouse";
 import Entertainment from "./Entertainment/Entertainment";
+import RealEstate from "./RealEstate/RealEstate";
 
 export {
   AboutUs,
@@ -16,6 +17,7 @@ export {
   Gallery,
   Header,
   HumbleBaron,
-  Laurels,
+  TolleyHouse,
   Entertainment,
+  RealEstate,
 };
