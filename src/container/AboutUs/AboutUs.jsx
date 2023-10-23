@@ -35,6 +35,7 @@ const AboutUs = () => (
       </div>
       <div className="app__aboutus-content_history">
         <img
+          alt="keithweaver"
           src={images.keithweaver}
           className="w-[50%] h-[50%] rounded-xl xl:ml-[70px] keith"
         />
